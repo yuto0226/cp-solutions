@@ -19,6 +19,7 @@ int main() {
     if (n % 2) {
       result = n * result % MOD;
     }
+    cout << result << endl;
   }
 
   return 0;
