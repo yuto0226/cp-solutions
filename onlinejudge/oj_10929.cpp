@@ -6,10 +6,12 @@ using namespace std;
 int main() {
   string n;
   while (cin >> n) {
-    if (n == "0") break;
+    if (n == "0")
+      break;
     int odd = 0, even = 0;
     for (int i = 0; i < n.size(); i++) {
-      if (n[i] == ' ') continue;
+      if (n[i] == ' ')
+        continue;
       if (i % 2)
         odd += n[i] - '0';
       else

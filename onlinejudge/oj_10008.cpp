@@ -15,8 +15,10 @@ int main() {
 
     // counting
     for (char c : line) {
-      if (isalpha(c)) count[toupper(c)]++;
-      if (count[toupper(c)] > max_count) max_count = count[toupper(c)];
+      if (isalpha(c))
+        count[toupper(c)]++;
+      if (count[toupper(c)] > max_count)
+        max_count = count[toupper(c)];
     }
   }
 

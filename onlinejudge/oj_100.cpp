@@ -7,7 +7,8 @@ int f(int n) {
   int count = 0;
   while (true) {
     count++;
-    if (n == 1) break;
+    if (n == 1)
+      break;
     if (n % 2)
       n = 3 * n + 1;
     else
@@ -29,7 +30,8 @@ int main() {
 
     for (int i = b; i <= e; i++) {
       int r = f(i);
-      if (r > max) max = r;
+      if (r > max)
+        max = r;
     }
     cout << begin << " " << end << " " << max << endl;
   }
