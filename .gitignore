@@ -5,3 +5,4 @@ example.cpp
 *.in
 *.out
 draft
+.gdb_history
